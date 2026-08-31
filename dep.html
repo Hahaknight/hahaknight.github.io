@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>数字员工配置包 — 让 AI 替你写周报、做纪要、理表格（中文办公技能包）</title>
+<meta name="description" content="面向非程序员的中文办公提效技能包：6 个岗位技能（周报/PPT大纲/会议纪要/简历诊断/表格清洗/高难度邮件）+ 敏感信息自动防护 + 3 套 SOP。装进 Claude Code 或任意 AI 工具，说「写周报」即可。免费样例直接用。">
+<link rel="canonical" href="https://hahaknight.github.io/dep.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="数字员工配置包 — 中文办公提效技能包">
+<meta property="og:description" content="6 个岗位技能 + 自动防护 + 3 套 SOP。说「写周报」即可，AI 按你的规范自动接管。">
+<style>
+:root{--bg:#0d1117;--card:#161b22;--border:#30363d;--text:#e6edf3;--muted:#8b949e;--accent:#58a6ff;--green:#3fb950;--max:900px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.75}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+header{padding:56px 0 32px;text-align:center}
+h1{font-size:clamp(24px,4.5vw,38px);letter-spacing:-.5px;margin-bottom:14px}
+.sub{color:var(--muted);font-size:17px;max-width:620px;margin:0 auto 8px}
+.pill{display:inline-block;margin-top:16px;padding:6px 18px;border:1px solid var(--border);border-radius:99px;color:var(--green);font-size:13px}
+.code{margin-top:16px;font-size:14px;font-family:Consolas,monospace;background:var(--card);border:1px solid var(--border);border-radius:8px;padding:8px 16px;display:inline-block}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:32px 0}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:18px}
+.card h3{font-size:15px;margin-bottom:6px}
+.card p{color:var(--muted);font-size:13.5px}
+.tag{float:right;font-size:11px;color:var(--green);border:1px solid var(--green);border-radius:6px;padding:0 8px}
+.tag.pro{color:#d29922;border-color:#d29922}
+.cta{border:1px solid var(--border);border-radius:16px;padding:32px;text-align:center;margin:32px 0 48px}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 32px;border-radius:10px;margin:12px 8px 0;font-size:15px}
+.btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+footer{border-top:1px solid var(--border);padding:24px 0;color:var(--muted);font-size:12.5px;text-align:center}
+a{color:var(--accent)}
+h2{font-size:22px;margin-bottom:16px;text-align:center}
+ul.feats{list-style:none;max-width:480px;margin:14px auto;text-align:left}
+ul.feats li{padding:5px 0 5px 26px;position:relative;color:var(--muted)}
+ul.feats li::before{content:"✓";position:absolute;left:0;color:var(--green)}
+</style>
+</head>
+<body>
+<header class="wrap">
+<h1>数字员工配置包</h1>
+<p class="sub">把「每次都要交代的经验」变成 AI 的标准作业程序——说「写周报」，AI 按你定的规范自动接管。零编程门槛，全中文。</p>
+<span class="pill">3 个免费样例 · 即装即用</span>
+<div class="code">npx skills add Hahaknight/digital-employee-pack</div>
+</header>
+
+<div class="wrap">
+<section>
+<h2>6 个岗位技能，覆盖职场人最花时间的事</h2>
+<div class="grid">
+<div class="card"><span class="tag">免费样例</span><h3>周报生成器</h3><p>从 git 提交、待办完成、聊天进展整理成结构化周报：结论先行、进展明细、问题与支持、下周计划≤3 条。</p></div>
+<div class="card"><span class="tag">免费样例</span><h3>会议纪要</h3><p>行动项带负责人和截止日，决议与讨论分开，一屏读完。不再是流水账。</p></div>
+<div class="card"><span class="tag">免费样例</span><h3>PPT 大纲</h3><p>每页标题都是结论句，每页≤3 个要点，数据页必有对比基线。故事线先于内容。</p></div>
+<div class="card"><span class="tag pro">完整版</span><h3>简历诊断</h3><p>10 项体检式诊断：量化缺失、动词弱化、错位关键词——逐条给改法。</p></div>
+<div class="card"><span class="tag pro">完整版</span><h3>表格清洗</h3><p>先备份、再报告计划、后动手。合并重复、拆分字段、修日期格式的安全流程。</p></div>
+<div class="card"><span class="tag pro">完整版</span><h3>高难度邮件</h3><p>拒绝、催款、道歉、向上汇报——四段式结构 + 两个语气的版本。</p></div>
+</div>
+</section>
+
+<section class="cta">
+<h2>完整版包含</h2>
+<ul class="feats">
+<li>6 个岗位技能（3 个免费样例之上再加 3 个）</li>
+<li>敏感信息自动拦截 + 改动自动备份（Hooks）</li>
+<li>CLAUDE.md 入职模板（一次配置，长期生效）</li>
+<li>3 套 SOP：重复工作固化 / 数据安全三原则 / AI 产出三查法</li>
+</ul>
+<p style="color:var(--muted);font-size:14px">¥19.9 · 早鸟名额内免费换（Star + 开 Issue 写使用场景）</p>
+<a class="btn" href="https://github.com/Hahaknight/digital-employee-pack">免费样例（GitHub）</a>
+<a class="btn ghost" href="https://github.com/Hahaknight/claude-skills-pro/issues/1">获取完整版 →</a>
+</section>
+
+<section>
+<h2>真实输出示例</h2>
+<p class="sub" style="text-align:left">描述会说谎，输出不会——<a href="https://github.com/Hahaknight/digital-employee-pack/blob/main/EXAMPLES.md">看技能在真实工作数据上跑出的周报与 PPT 大纲</a>。程序员用的英文版技能包在 <a href="https://hahaknight.github.io/">Claude Skills Pro</a>。</p>
+</section>
+</div>
+
+<footer class="wrap">
+数字员工配置包 · 独立制作，与 Anthropic/OpenAI 无关联 · Skills 是 markdown 文件，安装即用，无数据上传<br>
+适用：Claude Code / Codex / Gemini CLI / 任意支持自定义指令的 AI 工具
+</footer>
+</body>
+</html>
